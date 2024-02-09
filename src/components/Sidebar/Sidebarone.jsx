@@ -9,7 +9,7 @@ const Sidebarone = () => {
   const [selected, setselected] = useState(0);
   const [expanded, setExpanded] = useState(true);
 
-  const sidebarVariants = {
+  const sidebarVarients = {
     true: {
       left: "0",
     },
@@ -30,7 +30,7 @@ const Sidebarone = () => {
       </div>
       <motion.div
         className="Sidebarone"
-        varients={sidebarVariants}
+        variants={sidebarVarients}
         animate={window.innerWidth <= 768 ? `${expanded}` : ""}
       >
         {/* logo */}
