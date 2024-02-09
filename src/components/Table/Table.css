@@ -15,5 +15,21 @@
 }
 
 .Details {
-    color: rgb(95, 95, 192) !important;
+    color: rgb(95, 95, 192) 
+    !important;
 }
+@media screen and (max-width:1200px) {
+    .Table{
+        width: 170%;
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Table{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 18rem;
+    }
+  }
